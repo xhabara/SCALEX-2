@@ -1,0 +1,81 @@
+body {
+  background-color: #000000;
+  color: #136813;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button, select, input {
+  background-color: #002200;
+  color: #0EC90E;
+  border: 1px solid #00ff00;
+  padding: 3px;
+  margin: 5px;
+}
+
+button:hover, select:hover, input:hover {
+  background-color: #003300;
+}
+
+button:active {
+  background-color: #046D04;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 200px; 
+  height: 15px;
+  background: #002200;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 15px;
+  background: #049904;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 25px;
+  height: 20px;
+  background: #00ff00;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid #00ff00;
+  background-color: black; 
+}
+
+#harmony-pattern-select {
+  background-color: #025A52; 
+}
+
+#bass-pattern-select {
+  background-color: #026158; 
+}
+
+#harmony-osc-type-select {
+  background-color: #01685E; 
+}
+
+#bass-osc-type-select {
+  background-color: #03776C; 
+}
+#scale-select {
+  background-color: #024105; 
+}
+.button-active {
+  background-color: #00FF00; 
+  color: #000000; 
+}
+
+.button-inactive {
+  background-color: #6F6A6A; 
+  color: #FFFFFF; 
+}
